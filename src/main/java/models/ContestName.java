@@ -41,7 +41,7 @@ public class ContestName {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("ContestName{");
+        final StringBuilder sb = new StringBuilder("{");
         sb.append("name='").append(name).append('\'');
         sb.append(", color='").append(color).append('\'');
         sb.append(", language=").append(language);

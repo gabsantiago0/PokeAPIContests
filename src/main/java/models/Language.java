@@ -31,7 +31,7 @@ public class Language {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Language{");
+        final StringBuilder sb = new StringBuilder("{");
         sb.append("name='").append(name).append('\'');
         sb.append(", url='").append(url).append('\'');
         sb.append('}');
